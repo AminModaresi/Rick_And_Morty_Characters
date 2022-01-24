@@ -1,0 +1,29 @@
+.character__detail {
+    background: #12151e;
+    padding: 1.5rem 1rem;
+    border-radius: 15px;
+    color: #67748e !important;
+    a{
+        color: #67748e !important; 
+        text-decoration: none;
+    }
+    &_img {
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: 0 auto 2rem auto;
+        border-radius: 15px;
+
+        @media (min-width: 768px) {
+            width: 100% !important;
+        }
+
+    }
+
+    &_content {
+        @media (max-width: 767.98px) {
+            text-align: center;
+        }
+    }
+
+}
